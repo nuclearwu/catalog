@@ -87,7 +87,7 @@ jobs:
 
       - name: Install vela core
         run: |
-          vela install --yes
+          vela install -v v1.9.0-alpha.2 --yes
           kubectl get deploy -n vela-system kubevela-vela-core -oyaml
 
       - name: Vela worker cluster join
