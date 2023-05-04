@@ -11,4 +11,4 @@ tags:
   - Helm
 
 system:
-  vela: ">=v1.9.0-alpha.3"
+  vela: ">=v1.9.0-alpha.2"
